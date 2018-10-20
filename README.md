@@ -1,5 +1,6 @@
 # Play by Play: Authenticating External App and Service Integrations with Salesforce #
 By Don Robins and Chuck Liddell
+
 https://www.pluralsight.com/courses/play-by-play-authenticating-external-app-service-integrations-salesforce
 
 ## What's In This Repo
