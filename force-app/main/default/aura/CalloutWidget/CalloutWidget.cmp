@@ -1,0 +1,36 @@
+<aura:component description="Allows us to make simple callouts from the UI." implements="force:appHostable" controller="NamedCredentialInvoker">
+
+	<!--Attributes-->
+	<aura:attribute name="availableCredentials" type="Object[]" />
+	<aura:attribute name="selectedCredential" type="String" />
+
+	<aura:attribute name="textToSend" type="String" />
+
+	<!--Published Events-->
+
+	<!--Event Handlers-->
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+	<!--Content-->
+	<lightning:card title="Callout">
+
+		<lightning:layout multipleRows="true">
+
+			<lightning:layoutItem padding="around-small">
+				<lightning:combobox label="Named Credential" options="{!v.availableCredentials}" value="{!v.selectedCredential}" />
+			</lightning:layoutItem>
+
+			<lightning:layoutItem padding="around-small" size="12">
+				<lightning:input label="Message" value="{!v.textToSend}" />
+			</lightning:layoutItem>
+
+			<lightning:layoutItem padding="around-small">
+				<lightning:button label="Send" onclick="{!c.sendMessage}" />
+			</lightning:layoutItem>
+
+		</lightning:layout>
+
+	</lightning:card>
+
+
+</aura:component>

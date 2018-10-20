@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://putsreq.com/DgpQxTzXAcEV0zfiKN0u</authorizeUrl>
+    <consumerKey>thisIsMyKey</consumerKey>
+    <consumerSecret>gkzH3bNPuyd2aLpjlMxUUA==</consumerSecret>
+    <friendlyName>DemoAuth</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>OpenIdConnect</providerType>
+    <sendAccessTokenInHeader>true</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <tokenUrl>https://putsreq.com/90UcOqafPS9yeytdmHN7</tokenUrl>
+</AuthProvider>
